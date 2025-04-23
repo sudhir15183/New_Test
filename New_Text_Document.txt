@@ -1,0 +1,21 @@
+pytest -v tests/test_lambda.py::test_lambda_success
+
+
+pytest -v tests/test_lambda.py::test_lambda_missing_email
+
+
+pytest -s tests/ -p no:warnings
+
+
+venv\Scripts\activate
+
+-----------------------------------------------------------------------
+
+After update 
+
+git add requirements.txt
+git commit -m "Pin moto version to 4.2.0 to match local environment"
+git push
+
+
+
