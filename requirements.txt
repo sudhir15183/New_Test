@@ -1,3 +1,3 @@
 boto3
 pytest
-moto
+moto[dynamodb2]==4.2.0
