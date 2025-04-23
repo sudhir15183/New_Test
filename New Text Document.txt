@@ -1,0 +1,13 @@
+pytest -v tests/test_lambda.py::test_lambda_success
+
+
+pytest -v tests/test_lambda.py::test_lambda_missing_email
+
+
+pytest -s tests/ -p no:warnings
+
+
+venv\Scripts\activate
+
+
+

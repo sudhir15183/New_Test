@@ -1,0 +1,9 @@
+{
+  "python.analysis.extraPaths": [
+      "C:/New_Test/lambda_app",   // Absolute path to lambda_app
+      "./"  // Ensures the current directory is included
+  ]
+}
+
+
+  
