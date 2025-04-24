@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     dynamodb = boto3.resource("dynamodb", region_name="us-east-1")
     table = dynamodb.Table(TABLE_NAME)
 
-    # Extract fields from event
+    # Extract data from event
     first_name = event.get("first_name")
     last_name = event.get("last_name")
     email = event.get("email")
